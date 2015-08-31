@@ -110,39 +110,28 @@ class TranslatorPlugin extends GenericPlugin {
 		return true;
 	}
 
-	function getManagementVerbs() {
-		$verbs = parent::getManagementVerbs();
-		if ($this->getEnabled()) {
-			$verbs[] = array('translate', __('plugins.generic.translator.translate'));
-		}
-		return $verbs;
-	}
-
 	/**
-	 * @copydoc Plugin::getManagementVerbLinkAction()
+	 * @copydoc Plugin::getActions()
 	 */
-	function getManagementVerbLinkAction($request, $verb) {
-		list($verbName, $verbLocalized) = $verb;
-
-		switch ($verbName) {
-			case 'translate':
-				// Generate a link action for the "settings" action
-				$dispatcher = $request->getDispatcher();
-				import('lib.pkp.classes.linkAction.request.RedirectAction');
-				return new LinkAction(
-					$verbName,
+	function getActions($request, $actionArgs) {
+		$dispatcher = $request->getDispatcher();
+		import('lib.pkp.classes.linkAction.request.RedirectAction');
+		return array_merge(
+			$this->getEnabled()?array(
+				new LinkAction(
+					'translate',
 					new RedirectAction($dispatcher->url(
 						$request, ROUTE_PAGE,
 						null, 'management', 'settings', 'website',
 						array('uid' => uniqid()), // Force reload
 						'translate' // Anchor for tab
 					)),
-					$verbLocalized,
+					__('plugins.generic.translator.translate'),
 					null
-				);
-			default:
-				return parent::getManagementVerbLinkAction($request, $verb);
-		}
+				)
+			):array(),
+			parent::getActions($request, $actionArgs)
+		);
 	}
 
 	/**
