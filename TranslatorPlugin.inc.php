@@ -117,7 +117,7 @@ class TranslatorPlugin extends GenericPlugin {
 		$dispatcher = $request->getDispatcher();
 		import('lib.pkp.classes.linkAction.request.RedirectAction');
 		return array_merge(
-			$this->getEnabled()?array(
+			$this->getEnabled() && Validation::isSiteAdmin()?array(
 				new LinkAction(
 					'translate',
 					new RedirectAction($dispatcher->url(
