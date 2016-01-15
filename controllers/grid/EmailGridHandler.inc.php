@@ -37,7 +37,6 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 
 		// Set the grid details.
 		$this->setTitle('plugins.generic.translator.emails');
-		$this->setInstructions('plugins.generic.translator.emailDescription');
 		$emails = self::_getEmailTemplates($this->locale);
 		ksort($emails);
 		$this->setGridDataElements($emails);

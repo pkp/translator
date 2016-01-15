@@ -56,7 +56,6 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 		$context = $request->getContext();
 
 		$this->setTitle('plugins.generic.translator.localeFileContents');
-		$this->setInstructions('plugins.generic.translator.localeFileContentsDescription');
 
 		// Get and validate the locale and filename parameters
 		$this->locale = $request->getUserVar('locale');

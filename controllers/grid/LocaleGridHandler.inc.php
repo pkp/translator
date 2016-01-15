@@ -54,10 +54,6 @@ class LocaleGridHandler extends GridHandler {
 		parent::initialize($request);
 
 		$this->tabsSelector = $request->getUserVar('tabsSelector');
-
-		// Set the grid details.
-		$this->setInstructions('plugins.generic.translator.localeDescription');
-
 		$this->setGridDataElements(AppLocale::getAllLocales());
 
 		// Columns
