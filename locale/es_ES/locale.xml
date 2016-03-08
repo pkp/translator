@@ -2,7 +2,7 @@
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
-  * plugins/generic/translator/locale/es_ES/locale.xml
+  * locale.xml
   *
   * Copyright (c) 2014-2016 Simon Fraser University Library
   * Copyright (c) 2003-2016 John Willinsky
@@ -14,15 +14,24 @@
 <locale name="es_ES" full_name="Español (España)">
 	<message key="plugins.generic.translator.name">Complemento de traducción</message>
 	<message key="plugins.generic.translator.description">Este complemento permite el mantenimiento on-line de los archivos de traducción.</message>
-	<message key="plugins.generic.translator.longdescription">Esta zona permite al administrador global crear, modificar y revisar las traducciones de OMP. Esto afecta a toda la página y no debería usarse para personalizar una sola editorial. Si decides corregir o crear una traducción, por favor, envíala al Public Knowledge Project para distribuirla en nuevas versiones.</message>
-	<message key="plugins.generic.translator.localeDescription">Esta página muestra todos los componentes de una traducción de OMP y proporciona al traductor la posibilidad de editar cada uno de ellos. Una traducción completa de OMP debe contener traducciones completas de todos los componentes.</message>
-
+	<message key="plugins.generic.translator.longdescription">Esta área le permite al administrador/a del sitio crear, modificar y revisar las traducciones de OMP. Esto es para el sitio web completo y no debería ser usado para personalizar una sola editorial OMP. Si usted corrige o crea una traducción, considere enviarla a Publick Knowledge Project para su distribución en futuras publicaciones.</message>
+	<message key="plugins.generic.translator.localeFileContents">Archivos de configuración de variedades regionales</message>
 	<message key="plugins.generic.translator.localeName">Nombre locale</message>
 	<message key="plugins.generic.translator.localeKey">Clave</message>
+	<message key="plugins.generic.translator.localeKey.description">Introduzca la clave de configuración regional completa que desee buscar.</message>
 	<message key="plugins.generic.translator.localeKeyValue">Valor</message>
 	<message key="plugins.generic.translator.translate">Traducir</message>
 	<message key="plugins.generic.translator.availableLocales">Idiomas disponibles</message>
 	<message key="plugins.generic.translator.check">Revisar</message>
+	<message key="grid.action.checkLocale">Comprobar idioma</message>
+	<message key="grid.action.download">Descargar</message>
+	<message key="plugins.generic.translator.localeFile.complete">Completar ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Falta ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Completado</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Falta</message>
+	<message key="plugins.generic.translator.email.complete">Completado</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Falta</message>
 
 	<message key="plugins.generic.translator.errors">Locale errors</message>
 
@@ -34,18 +43,18 @@
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Emails extra</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Listas de parámetros de emails diferentes</message>
 
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">La clave "{$key}" falta en el archivo "{$filename}". Se ha proporcionado la versión inglesa en su lugar.</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">La clave "{$key}" ya no está en uso y puede eliminarse del archivo "{$filename}".</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">La clave locale "{$key}" en "{$filename}" utiliza sus parámetros de forma distinta a como lo hace la clave de referencia. Por favor, comprueba que contiene todos los parámetros relevantes. Los parámetros no coincidentes son:</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">El archivo de traducción "{$filename}" no se encuentra o no se puede leer.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">Falta el correo electrónico "{$key}" en la traducción.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El correo electrónico "{$key}" no se utiliza y puede eliminarse.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">El correo electrónico"{$key}" utiliza parámetros de forma diferente a como lo hace el locale de referencia. Por favor, comprueba que contiene todos los parámetros relevantes. Los parámetros no coincidentes son:</message>
-
-	<message key="plugins.generic.translator.locale">{$locale} Locale</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">La clave "{$key}" falta en "{$filename}". La versión en Español se estableció como la versión predeterminada.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">La clave "{$key}" ya no está en uso y puede eliminarse desde "{$filename}".</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">La clave de idioma "{$key}" en "{$filename}" difiere de la referencia de idioma en lo que respecta al uso de los parámetros. Asegúrese de que contenga todos los parámetros relevantes. Los parámetros que no coinciden son:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">El archivo de idioma"{$filename}" falta o no puede leerse.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">El mensaje del correo electrónico "{$key}" no está incluído en la traducción.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El mensaje del correo electrónico "{$key}"ya no en uso y puede eliminarse.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">El mensaje de correo electrónico "{$key}" difiere de la referencia de idioma en lo que respecta al uso de los parámetros. Asegúrese de que contenga todos los parámetros relevantes. Los parámetros que no coinciden son:</message>
+	<message key="plugins.generic.translator.jumpTo">Saltar a...</message>
+	<message key="plugins.generic.translator.locale">{$locale}Variedad regional</message>
 	<message key="plugins.generic.translator.localeFiles">Archivos locale</message>
-	<message key="plugins.generic.translator.miscFiles">Archivos diversos</message>
-	<message key="plugins.generic.translator.emails">Plantillas de correo electrónico</message>
+	<message key="plugins.generic.translator.miscFileDescription">La lista a continuación contiene todos los archivos de las variantes regionales. Normalmente, estos son archivos en formato XML pero que no cumplen con los formatos clave-valor estándares usados en la mayoría del contenido traducido.</message>
+	<message key="plugins.generic.translator.emails">Plantillas correo-e</message>
 	<message key="plugins.generic.translator.file.filename">Nombre de archivo</message>
 	<message key="plugins.generic.translator.file.edit">Edición {$filename}</message>
 	<message key="plugins.generic.translator.email.edit">Edición {$emailKey}</message>
@@ -60,10 +69,12 @@
 	<message key="plugins.generic.translator.file.resetConfirm">¿Seguro que quieres restaurar los contenidos del archivo?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">¿Seguro que quieres restaurar los contenidos del correo electrónico?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Este archivo aun no está traducido.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">El archivo "{$filename}" se creará a partir de la versión en inglés; tendrás que traducir todas las palabras del archivo. ¿Quieres continuar?</message>
-	<message key="plugins.generic.translator.email.description">De los campos siguientes de la plantilla de correo electrónico, traduce el título, el cuerpo y la descripción. La descripción está dirigida al Gestor editorial.</message>
-	<message key="plugins.generic.translator.confirmDelete">¿Seguro que quieres borrar este elemento? Esta acción no puede deshacerse.</message>
+	<message key="plugins.generic.translator.file.confirmCreate">El archivo "{$filename}" será creado usando la versión en Español, por lo que será necesario traducir todas las cadenas en el archivo. ¿Desea continuar?</message>
+	<message key="plugins.generic.translator.email.description">Traduzca en los siguientes campos el título, el cuerpo de texto y la descripción de la plantilla de correo electrónico. La descripción será usada sólo como referencia para el gestor/a de la publicación.</message>
+	<message key="plugins.generic.translator.confirmDelete">¿Está seguro de que desea eliminar este elemento? Esta acción es irreversible.</message>
 	<message key="plugins.generic.translator.deleteKey">Borrar esta clave</message>
 	<message key="plugins.generic.translator.deleteEmail">Borrar este correo electrónico</message>
-	<message key="plugins.generic.translator.saveBeforeContinuing">Asegúrate de guardar los cambios efectuados en esta página antes de continuar. De lo contrario, se perderán. ¿Quieres continuar? (los cambios no guardados se perderán).</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Asegúrese de guardar cualquier cambio que realice en esta página antes de continuar o los cambios se perderán. ¿Desea continuar? Si continúa, se perderán los cambios que no hayan sido guardados.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">No se puede modificar el archivo "{$filename}". Asegúrese de que los permisos del archivo se hayan establecido de forma correcta.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Ha ocurrido un problema al editar el archivo "{$filename}". Asegúrese de que cumpla con el formato establecido.</message>
 </locale>
