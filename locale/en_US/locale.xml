@@ -15,6 +15,7 @@
 	<message key="plugins.generic.translator.name">Translator Plugin</message>
 	<message key="plugins.generic.translator.description">This plugin allows web-based maintenance of translation files.</message>
 	<message key="plugins.generic.translator.longdescription">This area allows the Site Administrator to build, modify and check translations of OMP. This is site-wide and should not be used to customize a single OMP press. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</message>
+	<message key="plugins.generic.translator.localeDescription">This page lists the components of a translation of the software and permits the translator to modify each. A complete translation must include all of these components.</message>
 	<message key="plugins.generic.translator.localeFileContents">Locale File Contents</message>
 	<message key="plugins.generic.translator.localeName">Locale Name</message>
 	<message key="plugins.generic.translator.localeKey">Key</message>
