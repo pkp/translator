@@ -89,6 +89,8 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 	 * @param $request PKPRequest
 	 */
 	function save($args, $request) {
+		if (!$request->checkCSRF()) return new JSONMessage(false);
+
 		$filename = $this->_getFilename($request);
 		$notificationManager = new NotificationManager();
 		$user = $request->getUser();
@@ -126,8 +128,7 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 			// Some kind of error occurred (probably garbled formatting)
 			$notificationManager->createTrivialNotification($user->getId(), NOTIFICATION_TYPE_ERROR, array('contents' => __('plugins.generic.translator.errorEditingFile', array('filename' => $filename))));
 		}
-		$message = new JSONMessage(true);
-		return $message->getString();
+		return new JSONMessage(true);
 	}
 
 	/**

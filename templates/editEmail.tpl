@@ -19,6 +19,7 @@
 	{rdelim});
 </script>
 <form id="{$saveFormId}" action="{url op="save" locale=$locale emailKey=$emailKey}" method="post" class="pkp_form">
+	{csrf}
 	{* Reference area *}
 	{fbvFormArea id="referenceArea-"|uniqid title="plugins.generic.translator.file.reference" class="border"}
 		{fbvFormSection}

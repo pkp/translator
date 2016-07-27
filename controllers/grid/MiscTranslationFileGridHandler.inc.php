@@ -81,6 +81,8 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 	 * @param $request PKPRequest
 	 */
 	function save($args, $request) {
+		if (!$request->checkCSRF()) return new JSONMessage(false);
+
 		$filename = $this->_getFilename($request);
 		$notificationManager = new NotificationManager();
 		$user = $request->getUser();
@@ -93,8 +95,7 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 			// Could not write the file
 			$notificationManager->createTrivialNotification($user->getId(), NOTIFICATION_TYPE_ERROR, array('contents' => __('plugins.generic.translator.couldNotWriteFile', array('filename' => $filename))));
 		}
-		$message = new JSONMessage(true);
-		return $message->getString();
+		return new JSONMessage(true);
 	}
 
 	/**

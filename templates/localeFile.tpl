@@ -19,6 +19,7 @@
 	{rdelim});
 </script>
 <form id="{$saveFormId}" action="{url op="save" locale=$locale filename=$filename}" method="post" class="pkp_form">
+	{csrf}
 	{* An input for the listbuilder to save its changes into *}
 	<input type="hidden" name="localeKeys" />
 

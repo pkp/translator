@@ -103,6 +103,8 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 	 * @param $request PKPRequest
 	 */
 	function save($args, $request) {
+		if (!$request->checkCSRF()) return new JSONMessage(false);
+
 		$emailData = $referenceEmailData = null; // Avoid scrutinizer warning
 		$emailKey = $this->_getEmailData($request, $emailData, $referenceEmailData);
 
@@ -136,12 +138,11 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 		$body = $this->correctCr($request->getUserVar('emailBody'));
 		$description = $this->correctCr($request->getUserVar('emailDescription'));
 
-		$message = new JSONMessage(true);
 		if (!$file->update($emailKey, $subject, $body, $description)) {
 			if (!$file->insert($emailKey, $subject, $body, $description)) {
 				// Some kind of error occurred (probably garbled formatting)
 				$notificationManager->createTrivialNotification($user->getId(), NOTIFICATION_TYPE_ERROR, array('contents' => __('plugins.generic.translator.errorEditingFile', array('filename' => $targetFilename))));
-				return $message->getString();
+				return new JSONMessage(true);
 			}
 		}
 
@@ -151,7 +152,7 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 			// Could not write the file
 			$notificationManager->createTrivialNotification($user->getId(), NOTIFICATION_TYPE_ERROR, array('contents' => __('plugins.generic.translator.couldNotWriteFile', array('filename' => $targetFilename))));
 		}
-		return $message->getString();
+		return new JSONMessage(true);
 	}
 
 	/**
