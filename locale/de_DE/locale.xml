@@ -59,7 +59,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Sind Sie sicher, dass Sie die Dateiinhalte zurücksetzen wollen?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Sind Sie sicher, dass Sie die E-Mail-Inhalte zurücksetzen wollen?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Diese Datei ist noch nicht übersetzt worden.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">Die Datei "{$filename}" wird auf Basis der englischen Version angelegt; Sie werden alle Zeichenketten in der Datei übersetzen müssen. Möchten Sie fortfahren?</message>
 	<message key="plugins.generic.translator.email.description">In den folgenden Feldern können Sie Titel, Body und Beschreibung der E-Mail-Vorlagen übersetzen. Die Beschreibung dient der Information der Verwalter/innen.</message>
 	<message key="plugins.generic.translator.confirmDelete">Sind Sie sicher, dass Sie dieses Element löschen wollen? Diese AKtion kann nicht rückgängig gemacht werden.</message>
 	<message key="plugins.generic.translator.deleteKey">Diesen Schlüssel löschen</message>
