@@ -67,4 +67,17 @@
 	<message key="plugins.generic.translator.saveBeforeContinuing">Certifique-se de salvar qualquer alteração efetuada nesta página antes de continuar ou elas serão perdidas. Deseja continuar? Se sim, quaisquer mudança não salva será perdida.</message>
 	<message key="plugins.generic.translator.localeKey.description">Informe o idioma para busca.</message>
 	<message key="plugins.generic.translator.tarMissing">A função de exportação deste plugin foi desativado porque o tar binário configurado não pode ser encontrado no sistema. Por favor, certifique-se de que você tem o programa tar instalado e, em seguida, configure o caminho para o binário tar no arquivo config.inc.php 's [cli]!</message>
+	<message key="plugins.generic.translator.localeFileContents">Conteúdo do Arquivo de Idioma</message>
+	<message key="grid.action.checkLocale">Verificar Idioma</message>
+	<message key="grid.action.download">Download</message>
+	<message key="plugins.generic.translator.localeFile.complete">Completo ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Faltando ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Completo</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Faltando</message>
+	<message key="plugins.generic.translator.email.complete">Completo</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Faltando</message>
+	<message key="plugins.generic.translator.jumpTo">Ir para...</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Não foi possível gravar o arquivo "{$filename}". Verifique se esse arquivo está com permissões definidas corretamente.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Houve um problema de editar o arquivo "{$filename}". Verifique se ele segue o formato esperado.</message>
 </locale>
