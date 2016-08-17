@@ -67,7 +67,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Είστε σίγουροι ότι θέλετε να επαναφέρετε τα περιεχόμενα του αρχείου;</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Είστε σίγουροι ότι θέλετε να επαναφέρετε τα περιεχόμενα του email;</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* ΤΟ αρχείο αυτό δεν έχει μεταφραστεί ακόμα.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">ΤΟ αρχείο "{$filename}" θα δημιουργηθεί με την χρήση της Αγγλική έκδοσης. Θα πρέπει να μεταφράσετε όλες τις σειρές (strings) του αρχείου. Επιθυμείτε να συνεχίσετε;</message>
 	<message key="plugins.generic.translator.email.description">Στα παρακάτω πεδία, μεταφράστε τον Τίτλο, το Σώμα και την περιγραφή των πρότυπων email. Η περιγραφή χρησιμοποιείται μόνο για τον Διαχειριστή του Περιοδικού.</message>
 	<message key="plugins.generic.translator.confirmDelete">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το στοιχείο; Η ενέργεια αυτή δεν είναι ανστρέψιμη.</message>
 	<message key="plugins.generic.translator.deleteKey">Διαγράψτε αυτό το κλειδί</message>

@@ -60,7 +60,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Jeste li sigurni da želite poništiti sadržaj datoteke?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Jeste li sigurni da želite poništiti sadržaj obrazaca e-pošte?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Ova datoteka još nije prevedena.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">Datoteka "{$filename}" će biti kreirana koristeći englesku verziju; potom ćete trebati prevesti sve čestice u datoteci. Želite li nastaviti?</message>
 	<message key="plugins.generic.translator.email.description">U narednim poljima, prevedite naslov, tijelo i opis obrazaca e-pošte. Opis služi samo kao pomoć uredniku.</message>
 	<message key="plugins.generic.translator.confirmDelete">Jeste li sigurni da želite obrisati ovu česticu? Ova se akcija ne može opozvati.</message>
 	<message key="plugins.generic.translator.deleteKey">Izbriši ovu frazu</message>

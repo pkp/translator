@@ -60,7 +60,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Are you sure you wish to reset the file contents?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Are you sure you wish to reset the email contents?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* This file has not yet been translated.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">The file "{$filename}" will be created using the English version; you will need to translate all strings in the file. Do you wish to continue?</message>
 	<message key="plugins.generic.translator.email.description">In the following fields, translate the email template's Title, Body, and Description. The Description is for the Press Manager's reference only.</message>
 	<message key="plugins.generic.translator.confirmDelete">Are you sure you wish to delete this item? This action cannot be undone.</message>
 	<message key="plugins.generic.translator.deleteKey">Delete this key</message>

@@ -52,7 +52,6 @@
   <message key="plugins.generic.translator.file.resetConfirm" >آیا مطمئن هستید میخواهید محتوای فایل را به اول بازگردانید؟</message>
   <message key="plugins.generic.translator.email.resetConfirm" >آیا مطمئن هستید میخواهید محتوای ایمیل را به اول بازگردانید؟</message>
   <message key="plugins.generic.translator.file.doesNotExistNote" >* این فایل ترجمه نشده است</message>
-  <message key="plugins.generic.translator.file.confirmCreate" >فایل &quot;{$filename}&quot; از انگلیسی کپی خواهد شد. شما باید تمام رشته های این فایل را ترجمه کنید. آیا از این کار مطمئن هستید؟</message>
   <message key="plugins.generic.translator.email.description" >در فرم زیر عنوان - بدنه و توصیف ایمیل را ترجمه کنید. البته متن توصیف فقط برای استفاده مدیر مجله است.</message>
   <message key="plugins.generic.translator.confirmDelete" >ایا مطمئن هستید میخواهید این مورد را حذف کنید؟ این عمل غیر قابل برگشت است.</message>
   <message key="plugins.generic.translator.deleteKey" >این کلید را حذف کن</message>

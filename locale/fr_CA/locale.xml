@@ -60,7 +60,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du fichier?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du courriel?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Ce fichier n'a pas encore été traduit.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">Le fichier "{$filename}" sera créé en utilisant la version anglaise. Vous devrez traduire toutes les chaînes de caractères du fichier. Voulez-vous continuer?</message>
 	<message key="plugins.generic.translator.email.description">Dans les champs suivants, traduisez le titre, le corps et la description du modèle de courriel. La description est à l'usage du gestionnaire de la revue seulement.</message>
 	<message key="plugins.generic.translator.confirmDelete">Êtes-vous certain de vouloir supprimer cet élément? Cette action est irréversible.</message>
 	<message key="plugins.generic.translator.deleteKey">Supprimer cette clé</message>

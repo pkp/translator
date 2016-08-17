@@ -61,7 +61,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Sei sicuro di cancellare le modifiche e ripristinare  la versione iniziale?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Sei sicuro di cancellare le modifiche e ripristinare la versione iniziale delle email?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Questo file non è stato ancora tradotto.</message>
-	<message key="plugins.generic.translator.file.confirmCreate"><![CDATA[Questo file <tt>{$filename}</tt> sarà creato usando la versione inglese; dovrai tradurre tutte le stringhe del file. Vuoi continuare?]]></message>
 	<message key="plugins.generic.translator.email.description">Nei seguenti campi, traduci Titolo, Contenuto, e Descrizione del modello di messaggio email. La descrizione è solo per l'Amministratore della rivista.</message>
 	<message key="plugins.generic.translator.confirmDelete">Sei sicuro di voler cancellare questo oggetto? Questa azione non potrà essere annullata.</message>
 	<message key="plugins.generic.translator.deleteKey">Cancella questa chiave</message>

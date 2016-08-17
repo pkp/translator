@@ -69,7 +69,6 @@
 	<message key="plugins.generic.translator.file.resetConfirm">¿Seguro que quieres restaurar los contenidos del archivo?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">¿Seguro que quieres restaurar los contenidos del correo electrónico?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* Este archivo aun no está traducido.</message>
-	<message key="plugins.generic.translator.file.confirmCreate">El archivo "{$filename}" será creado usando la versión en Español, por lo que será necesario traducir todas las cadenas en el archivo. ¿Desea continuar?</message>
 	<message key="plugins.generic.translator.email.description">Traduzca en los siguientes campos el título, el cuerpo de texto y la descripción de la plantilla de correo electrónico. La descripción será usada sólo como referencia para el gestor/a de la publicación.</message>
 	<message key="plugins.generic.translator.confirmDelete">¿Está seguro de que desea eliminar este elemento? Esta acción es irreversible.</message>
 	<message key="plugins.generic.translator.deleteKey">Borrar esta clave</message>
