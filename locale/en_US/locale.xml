@@ -14,7 +14,7 @@
 <locale name="en_US" full_name="U.S. English">
 	<message key="plugins.generic.translator.name">Translator Plugin</message>
 	<message key="plugins.generic.translator.description">This plugin allows web-based maintenance of translation files.</message>
-	<message key="plugins.generic.translator.longdescription">This area allows the Site Administrator to build, modify and check translations of OMP. This is site-wide and should not be used to customize a single OMP press. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</message>
+	<message key="plugins.generic.translator.longdescription">This area allows the Site Administrator to build, modify and check translations. This is site-wide and should not be used to customize a single press/journal. If you correct or create a translation, please consider submitting it to the Public Knowledge Project for distribution with future releases.</message>
 	<message key="plugins.generic.translator.localeDescription">This page lists the components of a translation of the software and permits the translator to modify each. A complete translation must include all of these components.</message>
 	<message key="plugins.generic.translator.localeFileContents">Locale File Contents</message>
 	<message key="plugins.generic.translator.localeName">Locale Name</message>
@@ -70,7 +70,7 @@
 	<message key="plugins.generic.translator.file.resetConfirm">Are you sure you wish to reset the file contents?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Are you sure you wish to reset the email contents?</message>
 	<message key="plugins.generic.translator.file.doesNotExistNote">* This file has not yet been translated.</message>
-	<message key="plugins.generic.translator.email.description">In the following fields, translate the email template's Title, Body, and Description. The Description is for the Press Manager's reference only.</message>
+	<message key="plugins.generic.translator.email.description">In the following fields, translate the email template's Title, Body, and Description. The Description is for the Manager's reference only.</message>
 	<message key="plugins.generic.translator.confirmDelete">Are you sure you wish to delete this item? This action cannot be undone.</message>
 	<message key="plugins.generic.translator.deleteKey">Delete this key</message>
 	<message key="plugins.generic.translator.deleteEmail">Delete this email</message>
