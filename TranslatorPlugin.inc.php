@@ -25,9 +25,6 @@ class TranslatorPlugin extends GenericPlugin {
 	function register($category, $path) {
 		if (parent::register($category, $path)) {
 			if ($this->getEnabled()) {
-				// Add the TranslatorHandler to the list of page handlers
-				HookRegistry::register ('LoadHandler', array(&$this, 'handleRequest'));
-
 				// Allow the Translate tab to appear on website settings
 				HookRegistry::register('Templates::Management::Settings::website', array($this, 'callbackShowWebsiteSettingsTabs'));
 
@@ -83,29 +80,23 @@ class TranslatorPlugin extends GenericPlugin {
 		return false;
 	}
 
-	function handleRequest($hookName, $args) {
-		$page =& $args[0];
-		$op =& $args[1];
-		$sourceFile =& $args[2];
-
-		if ($page === 'translate' && in_array($op, array('index', 'edit', 'check', 'export', 'saveLocaleChanges', 'downloadLocaleFile', 'editLocaleFile', 'editMiscFile', 'saveLocaleFile', 'deleteLocaleKey', 'saveMiscFile', 'editEmail', 'createFile', 'deleteEmail', 'saveEmail'))) {
-			$this->import('TranslatorHandler');
-			Registry::set('plugin', $this);
-			define('HANDLER_CLASS', 'TranslatorHandler');
-			return true;
-		}
-
-		return false;
-	}
-
+	/**
+	 * @copydoc Plugin::getDisplayName()
+	 */
 	function getDisplayName() {
 		return __('plugins.generic.translator.name');
 	}
 
+	/**
+	 * @copydoc Plugin::getDescription()
+	 */
 	function getDescription() {
 		return __('plugins.generic.translator.description');
 	}
 
+	/**
+	 * @copydoc Plugin::isSitePlugin()
+	 */
 	function isSitePlugin() {
 		return true;
 	}
