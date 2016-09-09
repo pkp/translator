@@ -117,7 +117,7 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 
 		// Delegate processing to the listbuilder handler. This will invoke the callbacks below.
 		self::$plugin->import('controllers.listbuilder.LocaleFileListbuilderHandler');
-		if (LocaleFileListbuilderHandler::unpack($request, $request->getUserVar('localeKeys'))) {
+		if (LocaleFileListbuilderHandler::unpack($request, $request->getUserVar('localeKeys'), array($this, 'deleteEntry'), array($this, 'insertEntry'), array($this, 'updateEntry'))) {
 			if ($this->file->write()) {
 				$notificationManager->createTrivialNotification($user->getId());
 			} else {
