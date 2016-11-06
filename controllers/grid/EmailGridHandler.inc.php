@@ -21,8 +21,8 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 	/**
 	 * Constructor
 	 */
-	function EmailGridHandler() {
-		parent::BaseLocaleFileGridHandler();
+	function __construct() {
+		parent::__construct();
 	}
 
 

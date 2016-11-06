@@ -35,8 +35,8 @@ class LocaleGridHandler extends GridHandler {
 	/**
 	 * Constructor
 	 */
-	function LocaleGridHandler() {
-		parent::GridHandler();
+	function __construct() {
+		parent::__construct();
 		$this->addRoleAssignment(
 			array(ROLE_ID_SITE_ADMIN),
 			array('index', 'fetchGrid', 'fetchRow', 'export', 'edit')

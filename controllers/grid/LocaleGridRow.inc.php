@@ -24,8 +24,8 @@ class LocaleGridRow extends GridRow {
 	 * Constructor
 	 * @param $tabsSelector string Selector for containing tab element
 	 */
-	function LocaleGridRow($tabsSelector) {
-		parent::GridRow();
+	function __construct($tabsSelector) {
+		parent::__construct();
 		$this->tabsSelector = $tabsSelector;
 	}
 

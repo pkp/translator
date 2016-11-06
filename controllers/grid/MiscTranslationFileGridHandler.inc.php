@@ -22,8 +22,8 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 	/**
 	 * Constructor
 	 */
-	function MiscTranslationFileGridHandler() {
-		parent::BaseLocaleFileGridHandler();
+	function __construct() {
+		parent::__construct();
 	}
 
 

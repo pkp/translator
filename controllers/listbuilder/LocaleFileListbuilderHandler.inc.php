@@ -36,8 +36,8 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 	/**
 	 * Constructor
 	 */
-	function LocaleFileListbuilderHandler() {
-		parent::ListbuilderHandler();
+	function __construct() {
+		parent::__construct();
 		$this->addRoleAssignment(
 			ROLE_ID_SITE_ADMIN,
 			array('fetch', 'fetchRow', 'save', 'fetchOptions')

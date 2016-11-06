@@ -23,8 +23,8 @@ class LocaleFileListbuilderGridCellProvider extends GridCellProvider {
 	 * Constructor
 	 * @param $locale string The locale being translated
 	 */
-	function LocaleFileListbuilderGridCellProvider($locale) {
-		parent::GridCellProvider();
+	function __construct($locale) {
+		parent::__construct();
 		$this->locale = $locale;
 	}
 

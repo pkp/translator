@@ -27,8 +27,8 @@ class EmailGridRow extends GridRow {
 	 * Constructor
 	 * @param $tabsSelector string Selector for containing tab element
 	 */
-	function EmailGridRow($tabsSelector, $locale) {
-		parent::GridRow();
+	function __construct($tabsSelector, $locale) {
+		parent::__construct();
 		$this->tabsSelector = $tabsSelector;
 		$this->locale = $locale;
 	}

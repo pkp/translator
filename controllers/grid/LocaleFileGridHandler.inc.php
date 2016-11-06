@@ -22,8 +22,8 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 	/**
 	 * Constructor
 	 */
-	function LocaleFileGridHandler() {
-		parent::BaseLocaleFileGridHandler();
+	function __construct() {
+		parent::__construct();
 	}
 
 
