@@ -64,14 +64,14 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 	 */
 	function edit($args, $request) {
 		$filename = $this->_getFilename($request);
-		$referenceFilename = str_replace($this->locale, MASTER_LOCALE, $filename);
 
 		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign('locale', $this->locale);
-		$templateMgr->assign('filename', $filename);
-
-		$templateMgr->assign('referenceContents', file_get_contents($referenceFilename));
-		$templateMgr->assign('fileContents', file_exists($filename)?file_get_contents($filename):'');
+		$templateMgr->assign(array(
+			'locale' => $this->locale,
+			'filename' => $filename,
+			'referenceContents' => file_get_contents(str_replace($this->locale, MASTER_LOCALE, $filename)),
+			'fileContents' => file_exists($filename)?file_get_contents($filename):'',
+		));
 		return $templateMgr->fetchJson(self::$plugin->getTemplatePath() . 'editMiscFile.tpl');
 	}
 
