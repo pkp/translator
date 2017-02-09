@@ -59,7 +59,7 @@
 	<message key="plugins.generic.translator.email.resetToReference">Réinitialiser à la version de référence</message>
 	<message key="plugins.generic.translator.file.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du fichier?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du courriel?</message>
-	<message key="plugins.generic.translator.file.doesNotExistNote">* Ce fichier n'a pas encore été traduit.</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">Ce fichier n'a pas encore été traduit.</message>
 	<message key="plugins.generic.translator.email.description">Dans les champs suivants, traduisez le titre, le corps et la description du modèle de courriel. La description est à l'usage du gestionnaire de la revue seulement.</message>
 	<message key="plugins.generic.translator.confirmDelete">Êtes-vous certain de vouloir supprimer cet élément? Cette action est irréversible.</message>
 	<message key="plugins.generic.translator.deleteKey">Supprimer cette clé</message>
@@ -70,9 +70,9 @@
 	<message key="plugins.generic.translator.localeFileContents">Contenu du fichier local</message>
 	<message key="grid.action.checkLocale">Vérifier la langue</message>
 	<message key="grid.action.download">Téléchargement</message>
-	<message key="plugins.generic.translator.localeFile.complete">({$reference}) complété</message>
+	<message key="plugins.generic.translator.localeFile.complete">Complétés ({$reference})</message>
 	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
-	<message key="plugins.generic.translator.localeFile.doesNotExist">Manquant ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Manquants ({$reference})</message>
 	<message key="plugins.generic.translator.miscFile.complete">Complet</message>
 	<message key="plugins.generic.translator.miscFile.doesNotExist">Manquant</message>
 	<message key="plugins.generic.translator.email.complete">Complet</message>
