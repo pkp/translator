@@ -59,7 +59,7 @@
 	<message key="plugins.generic.translator.email.resetToReference">Réinitialiser à la version de référence</message>
 	<message key="plugins.generic.translator.file.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du fichier?</message>
 	<message key="plugins.generic.translator.email.resetConfirm">Êtes-vous certain de vouloir réinitialiser le contenu du courriel?</message>
-	<message key="plugins.generic.translator.file.doesNotExistNote">* Ce fichier n'a pas encore été traduit.</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">Ce fichier n'a pas encore été traduit.</message>
 	<message key="plugins.generic.translator.email.description">Dans les champs suivants, traduisez le titre, le corps et la description du modèle de courriel. La description est à l'usage du gestionnaire de la revue seulement.</message>
 	<message key="plugins.generic.translator.confirmDelete">Êtes-vous certain de vouloir supprimer cet élément? Cette action est irréversible.</message>
 	<message key="plugins.generic.translator.deleteKey">Supprimer cette clé</message>
@@ -67,4 +67,17 @@
 	<message key="plugins.generic.translator.saveBeforeContinuing">Assurez-vous de sauvegarder tous les changements effectués sur cette page avant de continuer ou ils seront perdus. Voulez-vous continuer? Si c'est le cas, tout changement non sauvegardé sera perdu.</message>
 	<message key="plugins.generic.translator.tarMissing">La fonction d'export de ce module d'extension a été désactivée parce que le tar binaire configuré est introuvable dans ce système. Assurez-vous que le programme tar est installé, puis configurez le chemin d'accès au tar binaire dans la section config.inc.php [cli].</message>
 	<message key="plugins.generic.translator.localeKey.description">Entrer la clé de paramètre régional complète que vous souhaitez chercher.</message>
+	<message key="plugins.generic.translator.localeFileContents">Contenu du fichier local</message>
+	<message key="grid.action.checkLocale">Vérifier la langue</message>
+	<message key="grid.action.download">Téléchargement</message>
+	<message key="plugins.generic.translator.localeFile.complete">Complétés ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Manquants ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Complet</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Manquant</message>
+	<message key="plugins.generic.translator.email.complete">Complet</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Manquant</message>
+	<message key="plugins.generic.translator.jumpTo">Aller à...</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Impossible d'enregistrer le fichier "{$filename}". Vérifier que le serveur Apache a les permisssions</message>
+	<message key="plugins.generic.translator.errorEditingFile">Il y a un problème avec le fichier "{$filename}". Vérifier que celui-ci respect le format d'entrée.</message>
 </locale>
