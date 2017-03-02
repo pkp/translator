@@ -33,7 +33,7 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 	/**
 	 * @copydoc Gridhandler::initialize()
 	 */
-	function initialize($request, $args = null) {
+	function initialize($request) {
 		parent::initialize($request);
 
 		// Set the grid details.
