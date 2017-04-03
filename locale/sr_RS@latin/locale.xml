@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Serbian_(sr_RS)
+  * Localization strings.
+  -->
+
+<locale name="sr_RS@latin" full_name="Srpski">
+	<message key="plugins.generic.translator.name">Dodatak za prevođenje</message>
+	<message key="plugins.generic.translator.description">Ovaj dodatak omogućuje prevođenje i  održavanje lokalizacija putem web interfejsa.</message>
+	<message key="plugins.generic.translator.longdescription">Ova oblast omogućava Administratoru sajta da napravi, modifikuje i proveri prevode. Ovo je dodatak na nivou sajta i ne treba da se koristi za prilagođavanje jezika (lokalizacije) u trenutnom časopisu. Ako ste ispravili ili napravili novi prevod, molimo vas da razmislite o njegovom javnom ustupanju na Public Knowledge Project kako bi se koristio za buduće verzije softvera.</message>
+	<message key="plugins.generic.translator.localeFileContents">Sadržaj fajla lokalizacije</message>
+	<message key="plugins.generic.translator.localeName">Ime lokalizacije</message>
+	<message key="plugins.generic.translator.localeKey">Ključ</message>
+	<message key="plugins.generic.translator.localeKey.description">Unesite ceo ključ lokalizacije da biste ga pronašli.</message>
+	<message key="plugins.generic.translator.localeKeyValue">Vrednost</message>
+	<message key="plugins.generic.translator.translate">Prevod</message>
+	<message key="plugins.generic.translator.availableLocales">Dostupne lokalizacije</message>
+	<message key="plugins.generic.translator.check">Proveri</message>
+	<message key="grid.action.checkLocale">Proveri lokalizaciju</message>
+	<message key="grid.action.download">Preuzmi</message>
+	<message key="plugins.generic.translator.localeFile.complete">Završeno ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Nedostaje ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Završeno</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Nedostaje</message>
+	<message key="plugins.generic.translator.email.complete">Završeno</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Nedostaje</message>
+	<message key="plugins.generic.translator.errors">Greške u lokalizaciji</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Nedostajući ključevi</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Dodatni ključevi</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Lista nepoklapajućih parametara</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Fajlovi lokalizacije koji nedostaju</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Imejlovi koji nedostaju</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Dodatni imejlovi</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Lista nepoklapajućih parametara imejlova</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">Ključ "{$key}" nedostaje u "{$filename}". Engleska verzija je dostupna po pravilu.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">Ključ "{$key}" se više ne koristi i može se obrisati iz "{$filename}".</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">Ključ u lokalizaciji "{$key}" u "{$filename}" se razlikuje od referentne lokalizacije u vidu parametara. Proverite da li sadrži sve relevantne parametre. Parametri koji nedostaju su:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">Fajl "{$filename}" nedostaje ili je nečitljiv.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">Ključ imejl poruke "{$key}" nedostaje u prevodu.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">Ključ imejl poruke "{$key}" se više ne koristi i može biti obrisan.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">Imejl poruka "{$key}" se razlikuje od referentne lokalizacije u vidu parametara. Proverite da li sadrži sve relevantne parametre. Parametri koji nedostaju su:</message>
+	<message key="plugins.generic.translator.jumpTo">Skoči na...</message>
+	<message key="plugins.generic.translator.locale">{$locale} Lokalizacija</message>
+	<message key="plugins.generic.translator.localeFiles">Fajlovi lokalizacije</message>
+	<message key="plugins.generic.translator.miscFiles">Dodatni fajlovi</message>
+	<message key="plugins.generic.translator.emails">Imejl šabloni</message>
+	<message key="plugins.generic.translator.file.filename">Ime fajla</message>
+	<message key="plugins.generic.translator.file.edit">Uređivanje {$filename}</message>
+	<message key="plugins.generic.translator.email.edit">Uređivanje {$emailKey}</message>
+	<message key="plugins.generic.translator.file.reference">Referentna verzija</message>
+	<message key="plugins.generic.translator.file.translation">Prevod</message>
+	<message key="plugins.generic.translator.email.reference">Referentna verzija</message>
+	<message key="plugins.generic.translator.email.translation">Prevod</message>
+	<message key="plugins.generic.translator.file.reset">Resetuj</message>
+	<message key="plugins.generic.translator.file.resetToReference">Resetovati na reference</message>
+	<message key="plugins.generic.translator.email.reset">Resetuj</message>
+	<message key="plugins.generic.translator.email.resetToReference">Resetovati na reference</message>
+	<message key="plugins.generic.translator.file.resetConfirm">Da li ste sigurni da želite da resetujete sadržaj fajla?</message>
+	<message key="plugins.generic.translator.email.resetConfirm">Da li ste sigurni da želite da resetujete sadržaj imejla?</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">* Ovaj fajl još nema prevod</message>
+	<message key="plugins.generic.translator.confirmDelete">Da li ste sigurni da želite da obrišete ovu stavku, ovo ne može biti vraćeno?</message>
+	<message key="plugins.generic.translator.deleteKey">Obriši ključ</message>
+	<message key="plugins.generic.translator.deleteEmail">Obriši imej</message>
+	<message key="plugins.generic.translator.localeDescription">Ova stranica prikazuje komponente za prevod softvera i omogućuje prevodiocu modifikaciju istih. Završen prevod mora da sadrži sve prevedene komponente.</message>
+	<message key="plugins.generic.translator.email.description">U sledećim poljima prevedite naslov, sadržaj (tekst) i opis imejl šablona. Opis je samo za menaerske potrebe.</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Uverite se da ste sačuvali izmene na ovoj stranici pre nego nastavite dalje ili će one biti izgubljene. Da li želite da nastavite? Ukoliko nastavite sve izmene će biti izgubljene.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Ne mogu da upišem u dokument "{$filename}". Proverite da su dozvole podešene ispravno.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Došlo je do problema prilikom uređivanja dokumenta "{$filename}". Proverite da li je u ispravnom formatu.</message>
+</locale>
