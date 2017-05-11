@@ -18,14 +18,6 @@ import('plugins.generic.translator.controllers.grid.EmailGridRow');
 
 class EmailGridHandler extends BaseLocaleFileGridHandler {
 
-	/**
-	 * Constructor
-	 */
-	function __construct() {
-		parent::__construct();
-	}
-
-
 	//
 	// Overridden template methods
 	//

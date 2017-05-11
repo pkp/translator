@@ -19,13 +19,6 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 	/** @var EditableLocaleFile File. NOTE: This is only used in certain cases and may not be available */
 	var $file;
 
-	/**
-	 * Constructor
-	 */
-	function __construct() {
-		parent::__construct();
-	}
-
 
 	//
 	// Overridden template methods
