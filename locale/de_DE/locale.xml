@@ -15,9 +15,11 @@
 	<message key="plugins.generic.translator.name">Translator-Plugin</message>
 	<message key="plugins.generic.translator.description">Dieses Plugin ermöglicht die webbasierte Pflege von Sprachdateien.</message>
 	<message key="plugins.generic.translator.longdescription">Dieser Bereich erlaubt der/dem Administrator/in, Übersetzungen zu erzeugen, zu veränder und zu kontrollieren. Dies ist installationsweit und sollte nicht benutzt werden, um eine einzelne Instanz anzupassen. Wenn Sie eine Übersetzung korrigieren oder anlegen, erwägen Sie bitte, sie an das Public Knowledge Project zu übermitteln, damit sie ggf. in künftige Versionen aufgenommen werden kann.</message>
+	<message key="plugins.generic.translator.localeDescription">Diese Seite führt alle Bestandteile der Übersetzung der Software auf und ermöglicht es Übersetzer/innen, diese zu verändern. Eine vollständige Übersetzung muss alle diese Komponenten erhalten.</message>
 	<message key="plugins.generic.translator.localeFileContents">Sprachdatei-Inhalte</message>
 	<message key="plugins.generic.translator.localeName">Name der Regionaleinstellung</message>
 	<message key="plugins.generic.translator.localeKey">Schlüssel</message>
+	<message key="plugins.generic.translator.localeKey.description">Geben Sie einen kompletten Locale-Schlüssel (Key) ein, nach dem Sie suchen möchten.</message>
 	<message key="plugins.generic.translator.localeKeyValue">Wert</message>
 	<message key="plugins.generic.translator.translate">Übersetzen</message>
 	<message key="plugins.generic.translator.availableLocales">Verfügbare Regionaleinstellungen</message>
@@ -32,6 +34,8 @@
 	<message key="plugins.generic.translator.email.complete">Vollständig</message>
 	<message key="plugins.generic.translator.email.doesNotExist">Fehlend</message>
 
+	<message key="plugins.generic.translator.errors">Locale Errors</message>
+
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Fehlende Schlüssel</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Zusätzliche Schlüssel</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Abweichende Parameter-Listen</message>
@@ -40,6 +44,13 @@
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Zusätzliche E-Mails</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Abweichende E-Mail-Parameter-Listen</message>
 
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">Der Schlüssel "{$key}" fehlt in "{$filename}". Die englische Variante wird als Standard angezeigt.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">The key "{$key}" wird nicht länger benutzt und kann aus "{$filename}" entfernt werden.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">Der Schlüssel "{$key}" in "{$filename}" unterscheidet sich von der Referenzversion im Hinblick auf die Parameter. Bitte kontrollieren Sie, ob alle relevanten Parameter enthalten sind. Die nicht passenden Parameter sind:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">Die Datei "{$filename}" fehlt oder ist nicht lesbar.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">Die E-Mail-Nachricht "{$key}" fehlt in der Übersetzung.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">Die E-Mail-Nachricht "{$key}" wird nicht länger benutzt und kann entfernt werden.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">Die E-Mail-Nachricht "{$key}" unterscheidet sich von der Referenzversion im Hinblick auf die Parameter. Bitte kontrollieren Sie, ob alle relevanten Parameter enthalten sind. Die nicht passenden Parameter sind:</message>
 	<message key="plugins.generic.translator.jumpTo">Springen zu...</message>
 	<message key="plugins.generic.translator.locale">{$locale}-Regionaleinstellung</message>
 	<message key="plugins.generic.translator.localeFiles">Sprachdateien</message>
