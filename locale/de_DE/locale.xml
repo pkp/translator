@@ -34,7 +34,7 @@
 	<message key="plugins.generic.translator.email.complete">Vollständig</message>
 	<message key="plugins.generic.translator.email.doesNotExist">Fehlend</message>
 
-	<message key="plugins.generic.translator.errors">Locale Errors</message>
+	<message key="plugins.generic.translator.errors">Übersetzungs-Fehler</message>
 
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Fehlende Schlüssel</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Zusätzliche Schlüssel</message>
