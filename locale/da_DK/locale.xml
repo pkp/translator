@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the da_DK (Dansk) locale.
+  -->
+
+<locale name="da_DK" full_name="Dansk">
+	<message key="plugins.generic.translator.translate">Oversæt</message>
+	<message key="plugins.generic.translator.name">Translator Plugin</message>
+	<message key="plugins.generic.translator.availableLocales">Tilgængelige lokaliseringer</message>
+	<message key="plugins.generic.translator.localeFile.complete">Complete ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeDescription">Denne side lister alle komponenter i en OJS oversættelse og giver oversætteren mulighed for at rette i dem alle. En fuldstændig oversættelse bør indeholde fuldstændige oversættelser af alle komponenter.</message>
+	<message key="plugins.generic.translator.jumpTo">Gå til....</message>
+	<message key="plugins.generic.translator.localeFiles">Lokaliseringsfiler</message>
+	<message key="plugins.generic.translator.miscFiles">Diverse filer</message>
+	<message key="plugins.generic.translator.emails">E-mail skabeloner</message>
+	<message key="grid.action.download">Download</message>
+	<message key="plugins.generic.translator.locale">{$locale} lokalitet</message>
+</locale>
