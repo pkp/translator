@@ -77,5 +77,4 @@
 	<message key="plugins.generic.translator.saveBeforeContinuing">Bitte stellen Sie sicher, dass Sie alle Änderungen, die Sie auf dieser Seite gemacht haben, speichern, bevor Sie fortfahren. Ansonsten werden sie gelöscht. Möchten Sie fortfahren? In diesem Fall werden alle ungespeicherten Änderungen verloren gehen.</message>
 	<message key="plugins.generic.translator.couldNotWriteFile">Konnte die Datei "{$filename}" nicht schreiben. Kontrollieren Sie bitte, ob die Dateirechte korrekt gesetzt sind.</message>
 	<message key="plugins.generic.translator.errorEditingFile">Es gab ein Problem bei der Bearbeitung der Datei  "{$filename}". Bitte kontrollieren Sie, ob die Datei dem erwarteten Format entspricht.</message>
-	<message key="plugins.generic.translator.localeDescription">Diese Seite listet die für eine vollständige Übersetzung der Software in eine Sprache benötigten Teile auf. Sie können hier die Übersetzungen vervollständigen oder korrigieren.</message>
 </locale>
