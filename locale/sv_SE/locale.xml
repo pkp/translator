@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  -->
+
+<locale name="sv_SE" full_name="Svenska">
+	<message key="plugins.generic.translator.name">Översättningsplugin</message>
+	<message key="plugins.generic.translator.description">Detta plugin möjliggör webbaserat underhåll av översättningsfiler.</message>
+	<message key="plugins.generic.translator.longdescription">Denna yta gör det möjligt för webbplatsdministratören att skapa, ändra och kontrollera översättningar. Detta sker för hela webbplatsen och bör inte användas för anpassning av en enskild publikation/tidskrift. Om du rättar eller skapar en översättning, skicka den gärna till Public Knowledge Project för att den ska kunna komma med i framtida versioner.</message>
+	<message key="plugins.generic.translator.localeDescription">Denna sida listar komponenterna i en översättning och tillåter översättaren att ändra dem. En fullständig översättning måste omfatta alla dessa komponenter.</message>
+	<message key="plugins.generic.translator.localeFileContents">Språk/region-filens innehåll</message>
+	<message key="plugins.generic.translator.localeName">Språkets/regionens namn</message>
+	<message key="plugins.generic.translator.localeKey">Kod</message>
+	<message key="plugins.generic.translator.localeKey.description">Fyll i en hel språk/region-kod att söka efter.</message>
+	<message key="plugins.generic.translator.localeKeyValue">Värde</message>
+	<message key="plugins.generic.translator.translate">Översätt</message>
+	<message key="plugins.generic.translator.availableLocales">Tillgängliga språk/regioner</message>
+	<message key="plugins.generic.translator.check">Kontrollera</message>
+	<message key="grid.action.checkLocale">Kontrollera språk/region</message>
+	<message key="grid.action.download">Ladda ned</message>
+	<message key="plugins.generic.translator.localeFile.complete">Slutförd ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Saknar ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Slutförd</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Saknas</message>
+	<message key="plugins.generic.translator.email.complete">Slutförd</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Saknas</message>
+
+	<message key="plugins.generic.translator.errors">Språk/region-fel</message>
+
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Nycklar saknas</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Extra nycklar</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Olika parameterlistor</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Språk/region-filer saknas</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">E-postmeddelanden saknas</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Extra e-postmeddelanden</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Olika parameterlistor för e-postmeddelanden</message>
+
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">Nyckeln "{$key}" saknas i "{$filename}". Den engelska versionen har angivits som standard.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">Nyckeln "{$key}" används inte längre och kan tas bort från "{$filename}".</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">Användningen av parametrar i språk/region-filens nyckel "{$key}" i "{$filename}" skiljer sig från språk/region-filen som används som referens. Kontrollera att alla relevanta parametrar finns med. Parametrar som inte stämmer är:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">Språk/region-filen "{$filename}" saknas eller kan inte läsas.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">E-postmeddelandet "{$key}" saknas i översättningen.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">E-postmeddelandet "{$key}" används inte längre och kan tas bort.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">Användningen av parametrar i e-postmeddelandet "{$key}" skiljer sig från språk/regionfilen som används som referens. Kontrollera att alla relevanta parametrar finns med. Parametrar som inte stämmer är:</message>
+	<message key="plugins.generic.translator.jumpTo">Gå till...</message>
+	<message key="plugins.generic.translator.locale">Språk/region-filen {$locale}</message>
+	<message key="plugins.generic.translator.localeFiles">Språk/region-filer</message>
+	<message key="plugins.generic.translator.miscFiles">Diverse filer</message>
+	<message key="plugins.generic.translator.emails">E-postmallar</message>
+	<message key="plugins.generic.translator.file.filename">Filnamn</message>
+	<message key="plugins.generic.translator.file.edit">Redigerar {$filename}</message>
+	<message key="plugins.generic.translator.email.edit">Redigerar {$emailKey}</message>
+	<message key="plugins.generic.translator.file.reference">Referensversion</message>
+	<message key="plugins.generic.translator.file.translation">Översättning</message>
+	<message key="plugins.generic.translator.email.reference">Referensversion</message>
+	<message key="plugins.generic.translator.email.translation">Översättning</message>
+	<message key="plugins.generic.translator.file.reset">Återställ</message>
+	<message key="plugins.generic.translator.file.resetToReference">Återställ till referensversion</message>
+	<message key="plugins.generic.translator.email.reset">Återställ</message>
+	<message key="plugins.generic.translator.email.resetToReference">Återställ till referensversion</message>
+	<message key="plugins.generic.translator.file.resetConfirm">Är du säker på att du vill återställa filens innehåll?</message>
+	<message key="plugins.generic.translator.email.resetConfirm">Är du säker på att du vill återställa e-postmeddelandets innehåll?</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">* Denna fil har ännu inte översatts.</message>
+	<message key="plugins.generic.translator.email.description">I följande fält, översätt e-postmallens titel, text och beskrivning. Beskrivning är endast till för administratörer som referens.</message>
+	<message key="plugins.generic.translator.confirmDelete">Är du säker på att du vill ta bort det här objektet? Denna åtgärd kan inte ångras.</message>
+	<message key="plugins.generic.translator.deleteKey">Ta bort nyckeln</message>
+	<message key="plugins.generic.translator.deleteEmail">Ta bort e-post</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Se till att spara dina ändringar innan du fortsätter, annars kommer de att försvinna. Vill du fortsätta? Ändringar som inte sparats kommer att försvinna.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Kunde inte skriva till filen "{$filename}". Kontrollera att filbehörigheter ställts in korrekt.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Det uppstod ett problem vid redigering av filen "{$filename}". Kontrollera att det förväntade formatet följs.</message>
+</locale>
