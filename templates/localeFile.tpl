@@ -24,7 +24,7 @@
 	<input type="hidden" name="localeKeys" />
 
 	{* Present the listbuilder *}
-	{url|assign:localeFileListbuilderUrl router=$smarty.const.ROUTE_COMPONENT component="plugins.generic.translator.controllers.listbuilder.LocaleFileListbuilderHandler" op="fetchGrid" locale=$locale tabsSelector=$tabsSelector filename=$filename escape=false}
+	{capture assign=localeFileListbuilderUrl}{url router=$smarty.const.ROUTE_COMPONENT component="plugins.generic.translator.controllers.listbuilder.LocaleFileListbuilderHandler" op="fetchGrid" locale=$locale tabsSelector=$tabsSelector filename=$filename escape=false}{/capture}
 	{load_url_in_div id="localeFileListbuilderContainer"|uniqid url=$localeFileListbuilderUrl}
 
 	{* Form buttons *}
