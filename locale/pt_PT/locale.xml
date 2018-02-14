@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/pt_PT/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="pt_PT" full_name="Português (Portugal)">
+	<message key="plugins.generic.translator.name">Plugin de Tradução</message>
+	<message key="plugins.generic.translator.description">Este plugin permite a manutenção dos ficheiros de tradução a partir do browser.</message>
+	<message key="plugins.generic.translator.localeFileContents">Conteúdo de ficheiros de Idioma</message>
+	<message key="plugins.generic.translator.localeName">Nome do Idioma</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Guarde todas as alterações efetuadas nesta página antes de continuar ou então serão perdidas. Pretende continuar? Se sim, qualquer alteração não guardada será perdida.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Não foi possível escrever no ficheiro "{$filename}". Verifique se o ficheiro possui as permissões corretas.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Houve um problema ao editar o ficheiro "{$filename}". Verifique se o ficheiro segue o formato correto.</message>
+	<message key="plugins.generic.translator.confirmDelete">Tem a certeza que pretende eliminar este item? Esta ação não pode ser desfeita.</message>
+	<message key="plugins.generic.translator.deleteKey">Apagar esta chave</message>
+	<message key="plugins.generic.translator.deleteEmail">Apagar este email</message>
+	<message key="plugins.generic.translator.longdescription">Esta área permite ao gestor da revista construir, modificar e verificar traduções. Estas alterações são transversais e não devem ser usadas para personalizar uma revista. Se corrigir ou criar uma tradução, considere submeter para o Public Knowledge Project para distribuição em futuras releases.</message>
+	<message key="plugins.generic.translator.localeDescription">Esta página lista os componentes de uma tradução do software e permite ao tradutor modificar cada uma. Uma tradução completa deve incluir todos estes componentes.</message>
+	<message key="plugins.generic.translator.localeKey">Chave</message>
+	<message key="plugins.generic.translator.localeKey.description">Insira uma chave completa para pesquisar.</message>
+	<message key="plugins.generic.translator.localeKeyValue">Valor</message>
+	<message key="plugins.generic.translator.translate">Tradução</message>
+	<message key="plugins.generic.translator.availableLocales">Idiomas Disponíveis</message>
+	<message key="plugins.generic.translator.check">Verificar</message>
+	<message key="grid.action.checkLocale">Verificar Idioma</message>
+	<message key="grid.action.download">Descarregar</message>
+	<message key="plugins.generic.translator.localeFile.complete">Completo ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Inexistente ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Completo</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Inexistente</message>
+	<message key="plugins.generic.translator.email.complete">Completo</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Inexistente</message>
+	<message key="plugins.generic.translator.errors">Erros de Idioma</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Chaves em Falta</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Chaves Extra</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Lista de Parâmetros Diferentes</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Ficheiros de Idioma Inexistentes</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Email Inexistentes</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Emails Extra</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Lista de Parâmetros de Email Diferentes</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">A chave "{$key}" de "{$filename}" não existe. Foi disponibilizada a versão inglesa da tradução.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">A chave "{$key}" não é mais usada e pode ser removida de "{$filename}".</message>
+	<message key="plugins.generic.translator.email.edit">Editar {$emailKey}</message>
+	<message key="plugins.generic.translator.file.reference">Versão de Referência</message>
+	<message key="plugins.generic.translator.jumpTo">Ir para ...</message>
+	<message key="plugins.generic.translator.locale">Idioma {$locale}</message>
+	<message key="plugins.generic.translator.localeFiles">Ficheiros de Idioma</message>
+	<message key="plugins.generic.translator.miscFiles">Ficheiros Diversos</message>
+	<message key="plugins.generic.translator.emails">Templates de Emails</message>
+	<message key="plugins.generic.translator.file.filename">Nome do Ficheiro</message>
+	<message key="plugins.generic.translator.file.edit">Editar {$filename}</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">A mensagem de email "{$key}" está em falta da tradução.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">A mensagem de email "{$key}" não é mais usada e pode ser removida.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">A mensagem de email "{$key}" difere do idioma de referência no uso dos parâmetros. Verifique se contém todos os parâmetros relevantes. Os parâmetros que diferem são:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">O ficheiro de idioma "{$filename}" está em falta ou não é possível a sua leitura.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">A chave de idioma "{$key}" no ficheiro "{$filename}" difere do idioma de referência no uso de parâmetros. Verifique se contém todos os parâmetros relevantes. Os parâmetros que diferem são:</message>
+	<message key="plugins.generic.translator.file.translation">Tradução</message>
+	<message key="plugins.generic.translator.email.reference">Versão de Referência</message>
+	<message key="plugins.generic.translator.email.translation">Tradução</message>
+	<message key="plugins.generic.translator.file.reset">Repor</message>
+	<message key="plugins.generic.translator.email.reset">Repor</message>
+	<message key="plugins.generic.translator.file.resetToReference">Repor para valores de Referência</message>
+	<message key="plugins.generic.translator.email.resetToReference">Limpar para valores de Referência</message>
+	<message key="plugins.generic.translator.file.resetConfirm">Tem a certeza de que pretende repor os conteúdos do ficheiro?</message>
+	<message key="plugins.generic.translator.email.resetConfirm">Tem a certeza de que pretende repor o conteúdo do email?</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">* Este ficheiro não foi ainda traduzido.</message>
+	<message key="plugins.generic.translator.email.description">Nos seguintes campos, traduz os templates de email, título, corpo da mensagem e descrição. A descrição é apenas para referência do gestor da plataforma.</message>
+</locale>
