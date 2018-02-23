@@ -24,7 +24,7 @@
 	<message key="plugins.generic.translator.emails">E-mail skabeloner</message>
 	<message key="grid.action.download">Download</message>
 	<message key="plugins.generic.translator.locale">{$locale} lokalitet</message>
-	<message key="plugins.generic.translator.description">Dette plug-in muliggør webbaseret vedligeholdelse af oversættelsesfiler.</message>
+	<message key="plugins.generic.translator.description">Denne plug-in muliggør webbaseret vedligeholdelse af oversættelsesfiler.</message>
 	<message key="plugins.generic.translator.longdescription">Dette område giver webstedsadministratoren mulighed for at opbygge, tilrette og kontrollere oversættelser. Dette dækker hele webstedet og bør ikke bruges til tilretning af enkelte tidsskrifter eller forlag. Hvis du tilretter eller foretager en oversættelse, beder vi dig overveje at sende den til Public Knowledge Project så den kan indgå i fremtidige udgivelser.</message>
 	<message key="plugins.generic.translator.localeFileContents">Lokaliseringsfilens indhold</message>
 	<message key="plugins.generic.translator.localeName">Lokaliseringsnavn</message>
