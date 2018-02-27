@@ -17,14 +17,11 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 
 class TranslatorPlugin extends GenericPlugin {
 	/**
-	 * Register the plugin
-	 * @param $category string Plugin category
-	 * @param $path string Plugin path
-	 * @return boolean True on success
+	 * @copydoc Plugin::register()
 	 */
-	function register($category, $path) {
-		if (parent::register($category, $path)) {
-			if ($this->getEnabled()) {
+	function register($category, $path, $mainContextId = null) {
+		if (parent::register($category, $path, $mainContextId)) {
+			if ($this->getEnabled($mainContextId)) {
 				// Allow the Translate tab to appear on website settings
 				HookRegistry::register('Templates::Management::Settings::website', array($this, 'callbackShowWebsiteSettingsTabs'));
 
