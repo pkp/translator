@@ -15,7 +15,7 @@
 	<message key="plugins.generic.translator.name">Complemento de traducción</message>
 	<message key="plugins.generic.translator.description">Este complemento permite el mantenimiento on-line de los archivos de traducción.</message>
 	<message key="plugins.generic.translator.longdescription">Esta área le permite al administrador/a del sitio crear, modificar y revisar las traducciones de OMP. Esto es para el sitio web completo y no debería ser usado para personalizar una sola editorial OMP. Si usted corrige o crea una traducción, considere enviarla a Publick Knowledge Project para su distribución en futuras publicaciones.</message>
-	<message key="plugins.generic.translator.localeDescription">Esta página enumera los componentes de una traducción del software y permite que el traductor modifique cada uno. Una traducción completa debe incluir todos estos componentes.</message>
+	<message key="plugins.generic.translator.localeDescription">Esta página enumera los módulos de una traducción del software y permite que el traductor modifique cada uno de ellos. Una traducción completa debe incluir todos los módulos.</message>
 	<message key="plugins.generic.translator.localeFileContents">Archivos de configuración de variedades regionales</message>
 	<message key="plugins.generic.translator.localeName">Nombre locale</message>
 	<message key="plugins.generic.translator.localeKey">Clave</message>
