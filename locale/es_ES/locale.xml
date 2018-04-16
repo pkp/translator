@@ -15,6 +15,7 @@
 	<message key="plugins.generic.translator.name">Complemento de traducción</message>
 	<message key="plugins.generic.translator.description">Este complemento permite el mantenimiento on-line de los archivos de traducción.</message>
 	<message key="plugins.generic.translator.longdescription">Esta área le permite al administrador/a del sitio crear, modificar y revisar las traducciones de OMP. Esto es para el sitio web completo y no debería ser usado para personalizar una sola editorial OMP. Si usted corrige o crea una traducción, considere enviarla a Publick Knowledge Project para su distribución en futuras publicaciones.</message>
+	<message key="plugins.generic.translator.localeDescription">Esta página enumera los módulos de una traducción del software y permite que el traductor modifique cada uno de ellos. Una traducción completa debe incluir todos los módulos.</message>
 	<message key="plugins.generic.translator.localeFileContents">Archivos de configuración de variedades regionales</message>
 	<message key="plugins.generic.translator.localeName">Nombre locale</message>
 	<message key="plugins.generic.translator.localeKey">Clave</message>
@@ -25,7 +26,7 @@
 	<message key="plugins.generic.translator.check">Revisar</message>
 	<message key="grid.action.checkLocale">Comprobar idioma</message>
 	<message key="grid.action.download">Descargar</message>
-	<message key="plugins.generic.translator.localeFile.complete">Completar ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.complete">Completado ({$reference})</message>
 	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
 	<message key="plugins.generic.translator.localeFile.doesNotExist">Falta ({$reference})</message>
 	<message key="plugins.generic.translator.miscFile.complete">Completado</message>
@@ -54,6 +55,7 @@
 	<message key="plugins.generic.translator.locale">{$locale}Variedad regional</message>
 	<message key="plugins.generic.translator.localeFiles">Archivos locale</message>
 	<message key="plugins.generic.translator.miscFileDescription">La lista a continuación contiene todos los archivos de las variantes regionales. Normalmente, estos son archivos en formato XML pero que no cumplen con los formatos clave-valor estándares usados en la mayoría del contenido traducido.</message>
+	<message key="plugins.generic.translator.miscFiles">Archivos varios</message>
 	<message key="plugins.generic.translator.emails">Plantillas correo-e</message>
 	<message key="plugins.generic.translator.file.filename">Nombre de archivo</message>
 	<message key="plugins.generic.translator.file.edit">Edición {$filename}</message>
