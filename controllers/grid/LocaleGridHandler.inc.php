@@ -96,7 +96,7 @@ class LocaleGridHandler extends GridHandler {
 	function index($args, $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign('pluginJavaScriptURL', self::$plugin->getJavaScriptURL($request));
-		return $templateMgr->fetchJson(self::$plugin->getTemplatePath() . 'locales.tpl');
+		return $templateMgr->fetchJson(self::$plugin->getTemplateResource('locales.tpl'));
 	}
 
 	/**
@@ -114,7 +114,7 @@ class LocaleGridHandler extends GridHandler {
 			'locale' => $locale,
 			'tabsSelector' => $this->tabsSelector
 		));
-		return $templateMgr->fetchJson(self::$plugin->getTemplatePath() . 'locale.tpl');
+		return $templateMgr->fetchJson(self::$plugin->getTemplateResource('locale.tpl'));
 	}
 
 	/**

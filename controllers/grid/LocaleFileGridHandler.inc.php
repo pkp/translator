@@ -73,7 +73,7 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign('locale', $this->locale);
 		$templateMgr->assign('filename', $filename);
-		return $templateMgr->fetchJson(self::$plugin->getTemplatePath() . 'localeFile.tpl');
+		return $templateMgr->fetchJson(self::$plugin->getTemplateResource('localeFile.tpl'));
 	}
 
 	/**

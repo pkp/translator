@@ -86,7 +86,7 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 			'emailBody' => isset($emailData['body'])?$emailData['body']:'',
 			'emailDescription' => isset($emailData['description'])?$emailData['description']:'',
 		));
-		return $templateMgr->fetchJson(self::$plugin->getTemplatePath() . 'editEmail.tpl');
+		return $templateMgr->fetchJson(self::$plugin->getTemplateResource('editEmail.tpl'));
 	}
 
 	/**

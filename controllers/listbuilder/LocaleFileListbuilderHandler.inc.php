@@ -77,7 +77,7 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 		$this->addColumn(new ListbuilderGridColumn(
 			$this, 'key', 'plugins.generic.translator.localeKey',
 			null,
-			self::$plugin->getTemplatePath() . 'localeFileKeyGridCell.tpl',
+			self::$plugin->getTemplateResource('localeFileKeyGridCell.tpl'),
 			$cellProvider,
 			array('tabIndex' => 1)
 		));
@@ -86,7 +86,7 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 		$this->addColumn(new ListbuilderGridColumn(
 			$this, 'value', 'plugins.generic.translator.localeKeyValue',
 			null,
-			self::$plugin->getTemplatePath() . 'localeFileValueGridCell.tpl',
+			self::$plugin->getTemplateResource('localeFileValueGridCell.tpl'),
 			$cellProvider,
 			array('tabIndex' => 2, 'width' => 70, 'alignment' => COLUMN_ALIGNMENT_LEFT)
 		));
