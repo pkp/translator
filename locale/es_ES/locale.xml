@@ -40,16 +40,16 @@
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Claves extra</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Lista de parámetros diferentes</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Archivos locale que faltan</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Emails que faltan</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Emails extra</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Listas de parámetros de emails diferentes</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Correos electrónicos que faltan</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Correos electrónicos extras</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Listas de parámetros de correos electrónicos diferentes</message>
 
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">La clave "{$key}" falta en "{$filename}". La versión en Español se estableció como la versión predeterminada.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">La clave "{$key}" falta en "{$filename}". La versión en español se estableció como la versión predeterminada.</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">La clave "{$key}" ya no está en uso y puede eliminarse desde "{$filename}".</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">La clave de idioma "{$key}" en "{$filename}" difiere de la referencia de idioma en lo que respecta al uso de los parámetros. Asegúrese de que contenga todos los parámetros relevantes. Los parámetros que no coinciden son:</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">El archivo de idioma"{$filename}" falta o no puede leerse.</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">El mensaje del correo electrónico "{$key}" no está incluído en la traducción.</message>
-	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El mensaje del correo electrónico "{$key}"ya no en uso y puede eliminarse.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El mensaje del correo electrónico "{$key}"ya no está en uso y puede eliminarse.</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">El mensaje de correo electrónico "{$key}" difiere de la referencia de idioma en lo que respecta al uso de los parámetros. Asegúrese de que contenga todos los parámetros relevantes. Los parámetros que no coinciden son:</message>
 	<message key="plugins.generic.translator.jumpTo">Saltar a...</message>
 	<message key="plugins.generic.translator.locale">{$locale}Variedad regional</message>
