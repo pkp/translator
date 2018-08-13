@@ -39,7 +39,7 @@
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Claves que faltan</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Claves extra</message>
 	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Lista de parámetros diferentes</message>
-	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Archivos locale que faltan</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Archivos locales que faltan</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Correos electrónicos que faltan</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Correos electrónicos extras</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Listas de parámetros de correos electrónicos diferentes</message>
@@ -51,12 +51,12 @@
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">El mensaje del correo electrónico "{$key}" no está incluído en la traducción.</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">El mensaje del correo electrónico "{$key}"ya no está en uso y puede eliminarse.</message>
 	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">El mensaje de correo electrónico "{$key}" difiere de la referencia de idioma en lo que respecta al uso de los parámetros. Asegúrese de que contenga todos los parámetros relevantes. Los parámetros que no coinciden son:</message>
-	<message key="plugins.generic.translator.jumpTo">Saltar a...</message>
-	<message key="plugins.generic.translator.locale">{$locale}Variedad regional</message>
-	<message key="plugins.generic.translator.localeFiles">Archivos locale</message>
+	<message key="plugins.generic.translator.jumpTo">Ir a...</message>
+	<message key="plugins.generic.translator.locale">{$locale} Variedad regional</message>
+	<message key="plugins.generic.translator.localeFiles">Archivos locales</message>
 	<message key="plugins.generic.translator.miscFileDescription">La lista a continuación contiene todos los archivos de las variantes regionales. Normalmente, estos son archivos en formato XML pero que no cumplen con los formatos clave-valor estándares usados en la mayoría del contenido traducido.</message>
 	<message key="plugins.generic.translator.miscFiles">Archivos varios</message>
-	<message key="plugins.generic.translator.emails">Plantillas correo-e</message>
+	<message key="plugins.generic.translator.emails">Plantillas de correo electrónico</message>
 	<message key="plugins.generic.translator.file.filename">Nombre de archivo</message>
 	<message key="plugins.generic.translator.file.edit">Edición {$filename}</message>
 	<message key="plugins.generic.translator.email.edit">Edición {$emailKey}</message>
