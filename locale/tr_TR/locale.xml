@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="plugins.generic.translator.name">Çeviri Eklentisi</message>
+	<message key="plugins.generic.translator.description">Bu eklenti çeviri dosyalarının web-tabanlı düzenlenmesini sağlar.</message>
+	<message key="plugins.generic.translator.localeFileContents">Dil Dosyaları İçeriği</message>
+	<message key="plugins.generic.translator.localeName">Dil Adı</message>
+	<message key="plugins.generic.translator.localeKey">Anahtar</message>
+	<message key="plugins.generic.translator.localeKeyValue">Değer</message>
+	<message key="plugins.generic.translator.translate">Çeviri</message>
+	<message key="plugins.generic.translator.availableLocales">Mevcut Diller</message>
+	<message key="plugins.generic.translator.check">Kontrol</message>
+	<message key="grid.action.checkLocale">Dil Kontrolü</message>
+	<message key="grid.action.download">İndir</message>
+	<message key="plugins.generic.translator.localeFile.complete">({$reference}) Tamam</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} (%{$percent})</message>
+	<message key="plugins.generic.translator.longdescription">Bu alan Site Yöneticisinin çevirileri oluşturmasına, değiştirmesine ve kontrol etmesine izin verir. Bu "site çapında" ve tek bir "yayın/dergiyi" özelleştirmek için kullanılmamalıdır. Çeviriyi düzeltir veya oluşturursanız, lütfen gelecekteki sürümlerle dağıtmak için bunu PKP'ye sunmayı değerlendirin.</message>
+	<message key="plugins.generic.translator.localeDescription">Bu sayfa, yazılım dil anahtarlarının çeviri bileşenlerini listeler ve çevirenin her birinin değiştirilmesine izin verir. Tam bir çeviri, bu bileşenlerin tümünü içermelidir.</message>
+	<message key="plugins.generic.translator.localeKey.description">Aramak için bir dil anahtarı girin.</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Kayıp ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Tamam</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Kayıp</message>
+	<message key="plugins.generic.translator.email.complete">Tamam</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Kayıp</message>
+	<message key="plugins.generic.translator.errors">Dil Hatası</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Kayıp Anahtarlar</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Ekstra Anahtarlar</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Farklı Parametre Listeleri</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Kayıp Dil Dosyaları</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Kayıp e-Postalar</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Ekstra e-Postalar</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Farklı e-Posta Parametre Listeleri</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">"{$key}" anahtarı "{$filename}" adlı dosyada eksik. İngilizce versiyonu varsayılan olarak verilmiştir.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">"{$key}" anahtarı artık kullanılmamaktadır ve "{$filename}" dosya adından kaldırılabilir.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">"{$filename}" içindeki "{$key}" dil anahtarı, parametrelerin kullanımında referans konumdan farklıdır. Lütfen tüm ilgili parametreleri içerdiğini tekrar kontrol edin. Eşleşmeyen parametre(ler):</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">"{$filename}" yerel dosyası eksik veya okunamıyor.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">E-posta "{$key}" anahtar listesindeki çeviride eksik.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">"{$key}" adlı e-posta mesajı artık kullanılmamaktadır ve kaldırılabilir.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">"{$key}" e-posta mesajı, parametrelerin kullanımında referans konumdan farklıdır. Lütfen tüm ilgili parametreleri içerdiğini iki kez kontrol edin. Eşleşmeyen parametre(ler):</message>
+	<message key="plugins.generic.translator.jumpTo">Seç ...</message>
+	<message key="plugins.generic.translator.locale">{$locale} dili</message>
+	<message key="plugins.generic.translator.localeFiles">Dil Dosyaları</message>
+	<message key="plugins.generic.translator.miscFiles">Çeşitli Dosyalar</message>
+	<message key="plugins.generic.translator.emails">e-Posta Şablonları</message>
+	<message key="plugins.generic.translator.file.filename">Dosya Adı</message>
+	<message key="plugins.generic.translator.file.edit">Düzenlenen {$filename}</message>
+	<message key="plugins.generic.translator.email.edit">Düzenlenen {$emailKey}</message>
+	<message key="plugins.generic.translator.file.reference">Referans Sürüm</message>
+	<message key="plugins.generic.translator.file.translation">Çeviri</message>
+	<message key="plugins.generic.translator.email.reference">Referans Sürüm</message>
+	<message key="plugins.generic.translator.email.translation">Çeviri</message>
+	<message key="plugins.generic.translator.file.reset">Sıfırla</message>
+	<message key="plugins.generic.translator.file.resetToReference">Referansa Sıfırla</message>
+	<message key="plugins.generic.translator.email.reset">Sıfırla</message>
+	<message key="plugins.generic.translator.email.resetToReference">Referansa Sıfırla</message>
+	<message key="plugins.generic.translator.file.resetConfirm">Dosya içeriğini sıfırlamak istediğinizden emin misiniz?</message>
+	<message key="plugins.generic.translator.email.resetConfirm">E-posta içeriğini sıfırlamak istediğinizden emin misiniz?</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">* Bu dosya henüz çevrilmedi.</message>
+	<message key="plugins.generic.translator.email.description">Aşağıdaki alanlarda, e-posta şablonunun Başlığı, Gövdesi ve Açıklaması'nı çevirin. Açıklama, yalnızca Yöneticinin referansı içindir.</message>
+	<message key="plugins.generic.translator.confirmDelete">Bu öğeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</message>
+	<message key="plugins.generic.translator.deleteKey">Bu anahtarı sil</message>
+	<message key="plugins.generic.translator.deleteEmail">Bu e-postayı sil</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Devam etmeden önce bu sayfada yapılan değişiklikleri kaydettiğinizden emin olun, aksi takdirde kaybolurlar. Devam etmek ister misiniz? Eğer öyleyse, kaydedilmemiş değişiklikler kaybolacak.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">"{$filename}" dosyası yazılamadı. Dosya izinlerinin doğru ayarlandığını tekrar kontrol edin.</message>
+	<message key="plugins.generic.translator.errorEditingFile">"{$filename}" dosyasını düzenlerken bir sorun oluştu. Beklenen biçimi takip ettiğinden emin olmak için tekrar kontrol edin.</message>
+</locale>
