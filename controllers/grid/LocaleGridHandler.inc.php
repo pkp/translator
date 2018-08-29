@@ -47,6 +47,15 @@ class LocaleGridHandler extends GridHandler {
 	//
 	// Overridden template methods
 	//
+ 	/**
+	 * @copydoc PKPHandler::authorize()
+	 */
+	function authorize($request, &$args, $roleAssignments) {
+		import('lib.pkp.classes.security.authorization.ContextAccessPolicy');
+		$this->addPolicy(new ContextAccessPolicy($request, $roleAssignments));
+		return parent::authorize($request, $args, $roleAssignments);
+	}
+
 	/**
 	 * @copydoc Gridhandler::initialize()
 	 */
