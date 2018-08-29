@@ -248,4 +248,3 @@ class EmailGridHandler extends BaseLocaleFileGridHandler {
 	}
 }
 
-?>

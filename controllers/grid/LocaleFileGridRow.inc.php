@@ -79,4 +79,3 @@ class LocaleFileGridRow extends GridRow {
 	}
 }
 
-?>

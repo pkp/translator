@@ -141,4 +141,4 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 		return $newRowId['value'];
 	}
 }
-?>
+

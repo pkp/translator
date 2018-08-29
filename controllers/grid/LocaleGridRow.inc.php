@@ -73,4 +73,3 @@ class LocaleGridRow extends GridRow {
 	}
 }
 
-?>

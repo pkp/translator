@@ -150,4 +150,3 @@ abstract class BaseLocaleFileGridHandler extends GridHandler {
 	}
 }
 
-?>

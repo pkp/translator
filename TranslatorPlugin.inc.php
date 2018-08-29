@@ -145,4 +145,3 @@ class TranslatorPlugin extends GenericPlugin {
 	}
 }
 
-?>

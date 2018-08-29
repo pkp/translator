@@ -105,4 +105,3 @@ class MiscTranslationFileGridHandler extends BaseLocaleFileGridHandler {
 	}
 }
 
-?>

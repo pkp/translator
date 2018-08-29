@@ -66,4 +66,3 @@ class EmailGridRow extends GridRow {
 	}
 }
 
-?>
