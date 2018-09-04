@@ -24,10 +24,10 @@ class LocaleFileGridHandler extends BaseLocaleFileGridHandler {
 	// Overridden template methods
 	//
 	/**
-	 * @copydoc Gridhandler::initialize()
+	 * @copydoc BaseLocaleFileGridHandler::initialize()
 	 */
-	function initialize($request) {
-		parent::initialize($request);
+	function initialize($request, $args = null) {
+		parent::initialize($request, $args);
 
 		// Set the grid details.
 		$this->setTitle('plugins.generic.translator.localeFiles');

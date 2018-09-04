@@ -49,10 +49,10 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 	// Overridden template methods
 	//
 	/**
-	 * @copydoc SetupListbuilderHandler::initialize()
+	 * @copydoc ListbuilderHandler::initialize()
 	 */
-	function initialize($request) {
-		parent::initialize($request);
+	function initialize($request, $args = null) {
+		parent::initialize($request, $args);
 		$context = $request->getContext();
 
 		$this->setTitle('plugins.generic.translator.localeFileContents');
@@ -93,9 +93,9 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 	}
 
 	/**
-	 * @copydoc GridHandler::loadData()
+	 * @copydoc ListbuilderHandler::loadData()
 	 */
-	function loadData($request) {
+	function loadData($request, $filter = null) {
 		import('lib.pkp.classes.file.EditableLocaleFile');
 		$referenceLocaleContents = EditableLocaleFile::load(str_replace($this->locale, MASTER_LOCALE, $this->filename));
 		$localeContents = file_exists($this->filename)?EditableLocaleFile::load($this->filename):array();

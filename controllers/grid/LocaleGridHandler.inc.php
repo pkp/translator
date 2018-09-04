@@ -57,7 +57,7 @@ class LocaleGridHandler extends GridHandler {
 	}
 
 	/**
-	 * @copydoc Gridhandler::initialize()
+	 * @copydoc GridHandler::initialize()
 	 */
 	function initialize($request, $args = null) {
 		parent::initialize($request, $args);
