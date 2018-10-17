@@ -40,7 +40,7 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 		parent::ListbuilderHandler();
 		$this->addRoleAssignment(
 			ROLE_ID_SITE_ADMIN,
-			array('fetch', 'fetchRow', 'save', 'fetchOptions')
+			array('fetch', 'fetchGrid', 'fetchRow', 'save', 'fetchOptions')
 		);
 	}
 
@@ -48,6 +48,15 @@ class LocaleFileListbuilderHandler extends ListbuilderHandler {
 	//
 	// Overridden template methods
 	//
+	/**
+	 * @copydoc PKPHandler::authorize()
+	 */
+	function authorize($request, &$args, $roleAssignments) {
+		import('lib.pkp.classes.security.authorization.ContextAccessPolicy');
+		$this->addPolicy(new ContextAccessPolicy($request, $roleAssignments));
+		return parent::authorize($request, $args, $roleAssignments);
+	}
+
 	/**
 	 * @copydoc SetupListbuilderHandler::initialize()
 	 */
