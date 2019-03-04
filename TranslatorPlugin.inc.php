@@ -130,13 +130,6 @@ class TranslatorPlugin extends GenericPlugin {
 	}
 
 	/**
-	 * @copydoc PKPPlugin::getTemplatePath
-	 */
-	function getTemplatePath($inCore = false) {
-		return parent::getTemplatePath($inCore) . 'templates/';
-	}
-
-	/**
 	 * Get the registry path for this plugin.
 	 * @return string Registry path
 	 */
