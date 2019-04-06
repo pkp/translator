@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the nl_NL (Nederlands) locale.
+  -->
+
+<locale name="nl_NL" full_name="Nederlands">
+	<message key="plugins.generic.translator.name">Vertaalplugin</message>
+	<message key="plugins.generic.translator.description">Deze plugin maakt het mogelijk om vertalingsbestanden te bewerken in de webbrowser.</message>
+	<message key="plugins.generic.translator.longdescription">Dit onderdeel stelt de website beheerder in staat om vertalingen te creëren, wijzigen en controleren. Deze hebben betrekking op de hele website en kunnen niet worden gebruikt om een afzonderlijk tijdschrift aan te passen. Als u vertalingen verbetert of nieuwe maakt, overweeg dan om ze in te dienen aan het Public Knowledge Project voor opname in toekomstige versies van de software.</message>
+	<message key="plugins.generic.translator.localeDescription">Deze pagina geeft een overzicht van de onderdelen van een vertaling van de software en stelt de vertaler in staat om elk onderdeel te wijzigen. Om volledig te zijn, moet een vertaling al deze componenten bevatten.</message>
+	<message key="plugins.generic.translator.localeFileContents">Inhoud van taalbestanden</message>
+	<message key="plugins.generic.translator.localeName">Naam van de taal</message>
+	<message key="plugins.generic.translator.localeKey">Sleutel</message>
+	<message key="plugins.generic.translator.localeKey.description">Vul de sleutel in van een volledige vertaalterm die u wil opzoeken.</message>
+	<message key="plugins.generic.translator.localeKeyValue">Waarde</message>
+	<message key="plugins.generic.translator.translate">Vertaling</message>
+	<message key="plugins.generic.translator.availableLocales">Beschikbare vertalingen</message>
+	<message key="plugins.generic.translator.check">Controleer</message>
+	<message key="grid.action.checkLocale">Controleer vertaling</message>
+	<message key="grid.action.download">Download</message>
+	<message key="plugins.generic.translator.localeFile.complete">Volledig ({$reference})</message>
+	<message key="plugins.generic.translator.localeFile.incompleteCount">{$complete} / {$reference} ({$percent}%)</message>
+	<message key="plugins.generic.translator.localeFile.doesNotExist">Ontbreekt ({$reference})</message>
+	<message key="plugins.generic.translator.miscFile.complete">Volledig</message>
+	<message key="plugins.generic.translator.miscFile.doesNotExist">Ontbreekt</message>
+	<message key="plugins.generic.translator.email.complete">Volledig</message>
+	<message key="plugins.generic.translator.email.doesNotExist">Ontbreekt</message>
+
+	<message key="plugins.generic.translator.errors">Fouten m.b.t. vertaling</message>
+
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.title">Ontbrekende sleutels</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.title">Extra sleutels</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.title">Afwijkende parameters</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.title">Ontbrekende taalbestanden</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.title">Ontbrekende e-mails</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.title">Extra e-mails</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.title">Afwijkende e-mail parameters</message>
+
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_KEY.message">De sleutel "{$key}" ontbreekt in "{$filename}". De Engelse versie wordt als referentie getoond.</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_EXTRA_KEY.message">De sleutel "{$key}" wordt niet meer gebruikt en kan worden verwijderd uit "{$filename}".</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_DIFFERING_PARAMS.message">De vertaling van "{$key}" in "{$filename}" verschilt van de referentietaal wat betreft het gebruik van parameters. Controleer of de vertaling alle relevante parameters bevat. De afwijkende parameter/s is/zijn:</message>
+	<message key="plugins.generic.translator.errors.LOCALE_ERROR_MISSING_FILE.message">Het taalbestand "{$filename}" ontbreekt of is niet leesbaar.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_MISSING_EMAIL.message">De e-mailboodschap "{$key}" ontbreekt in de vertaling.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_EXTRA_EMAIL.message">De e-mailboodschap "{$key}" wordt niet meer gebruikt en mag worden verwijderd.</message>
+	<message key="plugins.generic.translator.errors.EMAIL_ERROR_DIFFERING_PARAMS.message">De vertaling van "{$key}" verschilt van de referentietaal wat betreft het gebruik van parameters. Controleer of de vertaling alle relevante parameters bevat. De afwijkende parameter/s is/zijn:</message>
+	<message key="plugins.generic.translator.jumpTo">Ga naar...</message>
+	<message key="plugins.generic.translator.locale">{$locale} Taalinstellingen</message>
+	<message key="plugins.generic.translator.localeFiles">Taalbestanden</message>
+	<message key="plugins.generic.translator.miscFiles">Overige bestanden</message>
+	<message key="plugins.generic.translator.emails">E-mail sjablonen</message>
+	<message key="plugins.generic.translator.file.filename">Bestandsnaam</message>
+	<message key="plugins.generic.translator.file.edit">Bewerking van {$filename}</message>
+	<message key="plugins.generic.translator.email.edit">Bewerking van {$emailKey}</message>
+	<message key="plugins.generic.translator.file.reference">Referentieversie</message>
+	<message key="plugins.generic.translator.file.translation">Vertaling</message>
+	<message key="plugins.generic.translator.email.reference">Referentieversie</message>
+	<message key="plugins.generic.translator.email.translation">Vertaling</message>
+	<message key="plugins.generic.translator.file.reset">Herstel</message>
+	<message key="plugins.generic.translator.file.resetToReference">Herstel naar referentieversie</message>
+	<message key="plugins.generic.translator.email.reset">Herstel</message>
+	<message key="plugins.generic.translator.email.resetToReference">Herstel naar referentieversie</message>
+	<message key="plugins.generic.translator.file.resetConfirm">Weet u zeker dat u de inhoud van het bestand wil herstellen?</message>
+	<message key="plugins.generic.translator.email.resetConfirm">Weet u zeker dat u de inhoud van het e-mail sjabloon wil herstellen?</message>
+	<message key="plugins.generic.translator.file.doesNotExistNote">* Dit bestand is nog niet vertaald.</message>
+	<message key="plugins.generic.translator.email.description">Vul in de volgende velden de vertaling in voor de titel, berichttekst en omschrijving van het e-mail sjabloon. De omschrijving dient uitsluitend voor de tijdschriftbeheerder.</message>
+	<message key="plugins.generic.translator.confirmDelete">Weet u zeker dat u dit item wil verwijderen? Deze actie kan niet worden ongedaan gemaakt.</message>
+	<message key="plugins.generic.translator.deleteKey">Verwijder deze sleutel</message>
+	<message key="plugins.generic.translator.deleteEmail">Verwijder dit e-mail sjabloon</message>
+	<message key="plugins.generic.translator.saveBeforeContinuing">Zorg ervoor dat u alle wijzigingen die op deze pagina worden gemaakt, opslaat voor u deze pagina verlaat, of ze zullen verloren gaan. Wilt u doorgaan? Als u "ja" antwoordt, worden niet-bewaarde wijzigingen verwijderd.</message>
+	<message key="plugins.generic.translator.couldNotWriteFile">Kon het bestand "{$filename}" niet wegschrijven. Controleer of de rechten correct zijn ingesteld.</message>
+	<message key="plugins.generic.translator.errorEditingFile">Er was een probleem tijdens het bewerken van het bestand "{$filename}". Controleer of het beantwoordt aan het verwachte formaat.</message>
+</locale>
