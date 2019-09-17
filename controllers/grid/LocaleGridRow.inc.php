@@ -35,8 +35,8 @@ class LocaleGridRow extends GridRow {
 	/**
 	 * @copydoc GridRow::initialize()
 	 */
-	function initialize($request) {
-		parent::initialize($request);
+	function initialize($request, $template = NULL) {
+		parent::initialize($request, $template);
 		$router = $request->getRouter();
 
 		$actionArgs = array(
